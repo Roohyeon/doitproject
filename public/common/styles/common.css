@@ -214,3 +214,25 @@ footer{margin-top: auto; position:relative;}
 .form-group:nth-of-type(2) .d-block::before {content: "\F47A";}
 .form-group:nth-of-type(3) .d-block::before {content: "\F68B";}
 .form-group:nth-of-type(4) .d-block::before {content: "\F890";}
+
+/* mainbanner */
+.mainbanner {height:350px;overflow: hidden;text-align: center;}
+.mainbanner > img {height:350px;}
+.newbook{background:url("/images/content_bg.png") repeat-x; padding: 40px 0;}
+.maintit{margin-bottom: 20px;font-size: 38px;color:#222;font-weight: 900;text-align: center;}
+.maintit > span {display: block;margin-top:10px;font-size: 18px;color:#ababab;}
+.tapcontent{max-width:1200px;margin:0 auto;}
+.tap{margin: 40px 100px; display: flex;text-align:center;justify-content: space-evenly;}
+.btn-tap{display: inline-block;height: 40px;line-height: 40px;font-size: 18px;color:#888;font-weight: 700;position: relative;}
+.btn-tap::after{content:"";display:block;width:0;height:2px;background:#222;position:absolute;left:0;bottom:0;}
+.btn-tap.active{color:#222;}
+.btn-tap.active::after{width:100%;}
+
+.mainslider{margin: 0 100px; position: relative;}
+.slick-arrow{width: 42px; height:42px; background: url("/images/arrow-icon.png") no-repeat 0 0/100%; font-size:0; position:absolute; top:50%; margin-top:-55px; z-index:9;}
+.slick-arrow.slick-prev{left:10px;}
+.slick-arrow.slick-next{right:10px;transform:rotate(180deg);}
+.rollimg{padding:0 10px;}
+.imgbox > img {max-width:100%;}
+.rollimg > strong{display: block; font-size: 15px; color:#666;}
+.textbox{ font-size:13px;color:#ababab;}
