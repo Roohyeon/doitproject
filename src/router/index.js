@@ -7,9 +7,4 @@ const router = new VueRouter({
     mode:"hash",
     routes: [pageRouter],
 });
-
-const routers = createRouter({
-  history: createWebHistory("/doitproejct/"),
-  router,
-});
 export default router;
