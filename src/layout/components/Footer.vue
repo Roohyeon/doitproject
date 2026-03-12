@@ -12,7 +12,7 @@
     </div>
     <div class="footerinfo">
       <div class="footer-logo">
-        <img src="./images/footer-logo.png" alt="로고">
+        <img src="images/footer-logo.png" alt="로고">
       </div>
       <div class="footer-sub">
         <address>
