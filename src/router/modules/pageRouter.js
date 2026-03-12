@@ -1,3 +1,4 @@
+
 const withPrefix = (prefix, routes) =>
   routes.map((route) => {
     route.path = prefix + route.path;
@@ -26,6 +27,16 @@ const pageRouter = {
         component: () => import("@/views/Books.vue"),
       },
     ]),
+    {
+      path: "/reference",
+      name: "reference",
+      component: () => import("@/views/reference.vue"),
+    },
+    {
+      path: "/movieclass",
+      name: "movieclass",
+      component: () => import("@/views/movieclass.vue"),
+    },
   ],
 };
 
