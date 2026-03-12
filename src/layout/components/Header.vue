@@ -4,7 +4,7 @@
       <div class="contentbox">
         <div class="logo">
           <button v-on:click="goToPage('/main')">
-            <img src="/images/logo.png" alt="이지스퍼블리싱 로고"/>
+            <img src="./images/logo.png" alt="이지스퍼블리싱 로고"/>
           </button>
         </div>
         <div class="system">
