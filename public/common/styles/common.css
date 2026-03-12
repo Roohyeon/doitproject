@@ -291,7 +291,7 @@ footer{margin-top: auto; position:relative;}
 
 
 /* 자료실,동영상 강의 */
-.referencepage,.movieclasspage{width:100%; max-width: 1200px; margin:0 auto; padding:0 20px;}
+.referencepage,.movieclasspage,.classsample,.company{width:100%; max-width: 1200px; margin:0 auto; padding:0 20px;}
 .subpageguide{margin-bottom: 30px; color:#ababab;}
 .listnum strong{color:#dc3545;}
 .listbox{margin-top:20px; padding:20px; border: solid 1px #ddd;}
@@ -308,6 +308,24 @@ footer{margin-top: auto; position:relative;}
 .downguide{color:#ababab; font-size:12px;}
 .movieclasspage .listnum strong, .movieclasspage .listdetail > strong {color:#7952b3;}
 .movieclasspage .btn-listdown {background-color: #7952b3;}
+
+
+/* 교재 페이지 */
+.classsample .form-group::nth-of-type(1){padding-right:0;}
+.classsample .form-group{display: flex;}
+.classsample form{max-width: 480px; margin:0 auto;}
+.classsample .form-group > label{flex-basis: 130px;}
+.classsample .form-group > div{flex: 1 1 0;}
+.classsample .form-group input.form-control{height:30px;}
+.classsample .form-group small{font-size:14px; margin-top:5px;}
+
+
+/* 회사소개 */
+.introcon{background: url("/images/main_ico2.png") no-repeat right 10px/190px;}
+.introgroup{padding-right: 300px; margin-bottom: 30px;}
+.introgroup strong{display: block; margin-bottom: 10px; font-size:25px; font-weight: 900; color:#222;}
+.introgroup:nth-of-type(2){background:url("/images/main_ico1.png") no-repeat left 0px/200px; padding:0 0 0 300px;}
+
 
 
 /* 테블릿 */
@@ -397,4 +415,10 @@ footer{margin-top: auto; position:relative;}
      .listitem{flex-direction: column; align-items: center; justify-content: center;}
      .listthum{height:160px;}
      .listdetail{padding-left: 0;}
+
+     /* 회사소개 */
+     .introcon{background:none;}
+     .introgroup{padding-right:0;}
+     .introgroup strong{font-size:18px;}
+     .introgroup:nth-of-type(2){background:url("/images/main_ico1.png") no-repeat center 0px/200px; padding:193px 0 0 0px;}
 }
